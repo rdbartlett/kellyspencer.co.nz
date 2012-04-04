@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>    
+    <link rel="stylesheet" type="text/css" media="all" href="reset.css"/>        
+    <link rel="stylesheet" type="text/css" media="all" href="all.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Carme:400' rel='stylesheet' type='text/css'>    
+    <title>Kelly Spencer Illustration &amp; Design</title>
+  </head>
+  <body class="index">
+    <div class="page">      
+      <div class="line">
+        <div class="unit size1of3 hide-text sidebar">
+          <h1 class="title"><a href="index.html">Kelly Spencer</a></h1>
+          <h2 class="portfolio">portfolio</h2>
+          <ul>
+            <li class="paintings"><a href="paintings">paintings</a></li>
+            <li class="digital"><a href="digital">digital</a></li>
+            <li class="commercial"><a href="commercial">commercial</a></li>
+            <li class="projects"><a href="projects">projects</a></li>
+          </ul>
+          <h2 class="bonus-trivia">bonus trivia</h2>
+          <ul>
+            <li class="bio"><a href="bio">bio</a></li>
+            <li class="press"><a href="press">press</a></li>
+            <li class="boutique"><a href="boutique">boutique</a></li>
+            <li class="blog"><a href="blog">blog</a></li>
+            <li class="contact"><a href="contact">contact</a></li>
+          </ul>
+        </div>
+        <div class="unit size2of3 content">
+         <img src="img/ganesh.jpg" />
+        </div>
+      </div>
+      <div class="line">
+        <div class="unit size1of3 spacer">
+          &nbsp;
+        </div>
+        <div class="unit size2of3 caption">
+         <ul>
+          <li>Indian Ocean</li>
+          <li>Watercolour on paper</li>
+          <li>15 x 12"</li>
+          <li>Sold</li>
+        </div>        
+      </div>
+    </div>
+  </body>
+</html>

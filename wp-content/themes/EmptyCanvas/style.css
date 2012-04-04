@@ -1,0 +1,388 @@
+/*
+THEME NAME: Empty Canvas
+THEME URI: http://rubiqube.com
+DESCRIPTION: Empty Canvas v1.0 : Simple, minimalistic theme, ideal for corporate blogs or creating more complex designs
+VERSION: 1.0
+AUTHOR: <a href="http://www.rubiqube.com">Adrian Diaconescu</a>
+AUTHOR URI: http://www.rubiqube.com
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul, li {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+body {
+	background: #F6F6F6;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #585858;
+}
+
+h1{
+	font:italic 55px Georgia, "Times New Roman", Times, serif;
+	color:#aaa;
+}
+
+h2{
+	font:italic 24px Georgia, "Times New Roman", Times, serif;
+	color:#aaa;
+}
+
+a {
+	color:#aaa;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+strong {
+	font-weight: 700;
+}
+
+hr {
+	border: none 0;
+	border-bottom: 1px solid #f6f6f6;
+	height: 1px;
+	margin: 10px 0;
+}
+
+a.highlight{
+	color: red;
+	font-weight: bold;
+}
+
+blockquote {
+	font-style: italic;
+	background: url(images/quotes.gif) no-repeat top left;
+	background-position: 12px 12px;
+	color: #595959;
+	margin: 5px 0;
+	padding: 8px 15px 8px 60px;
+}
+
+#wrapper {
+	width: 790px;
+	background: #FFF;
+	margin: 0 auto;
+}
+
+#header {
+	overflow: hidden;
+	width: 770px;
+	border-bottom: 3px solid #f6f6f6;
+	border-top: 1px solid #f6f6f6;
+	background: url('images/logo.png') left center no-repeat;
+	margin: 0 auto;
+}
+
+#logo {
+	margin: 30px 0 0 210px;
+}
+
+#description {
+	font:italic 150% Georgia, "Times New Roman", Times, serif;
+	color:#aaa;
+	margin: 5px 0 30px 210px;
+}
+
+
+#container {
+	width: 730px;
+	overflow: hidden;
+	margin: 25px auto;
+}
+
+#content {
+	float: left;
+	width: 540px;
+}
+
+.post {
+	margin-bottom: 50px;
+}
+
+.post h3 {
+	text-transform: uppercase;
+	padding: 0 0 5px 0;
+	color: #aaa;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.post-title {
+	font-size: 200%;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+.post-title a {
+}
+
+.page-subtitle {
+	font-weight: 700;
+	color: #CCC;
+	font-size: 90%;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #f6f6f6;
+	margin-bottom: 15px;  
+}
+
+.post-meta {
+	font-size: 85%;
+	color: #999;
+	margin-top: 5px;
+}
+
+.post-meta a {
+	color: #666666;
+}
+
+.post-comments {
+	float: right;
+	background: url(images/cbubble_left.gif) no-repeat top left;
+	padding: 3px 0 7px 7px;
+}
+
+.post-comments a {
+	background: url(images/cbubble_right.gif) no-repeat top right;
+	padding: 3px 7px 7px 0;
+	color: #FFFFFF;
+}
+
+.post-comments a:hover {
+	color: #FFFFFF;
+}
+
+.post-content {
+	margin-top: 15px;
+}
+
+.post-content h2 {
+	font-size: 140%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #f6f6f6;
+	padding: 10px 0 5px;
+}
+
+.post-content h3 {
+	font-size: 110%;
+	font-weight: 700;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #f6f6f6;
+	padding: 10px 0 5px;
+}
+
+.post-content a{
+	font-style: italic;
+}
+
+.post-content p {
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+
+.post-content img {
+	background: #FFF;
+	border: 1px solid #f6f6f6;
+	margin-bottom: 15px;
+}
+
+.post-content img.alignleft {
+	float: left;
+	border: 1px solid #f6f6f6;
+	margin: 0 25px 15px 0;
+}
+
+.post-content img.alignright {
+	float: right;
+	border: 1px solid #f6f6f6;
+	margin: 0 0 15px 25px;
+}
+
+.post-content ul,.post-content ol {
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.post-content ul {
+	list-style: none;
+}
+
+.post-content ol {
+	list-style: none;
+}
+
+.post-content ul li,.post-content ol li {
+	line-height: 1.3;
+	margin-bottom: 5px;
+}
+
+.more-link {
+	font-weight: 700;
+	display: block;
+	margin-top: 10px;
+}
+
+.section-title {
+	font-size: 140%;
+	margin-bottom: 10px;
+}
+
+.navleft {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.navright {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+.navigation div a {
+	font-size: 110%;
+}
+
+#comments ol li {
+	margin-top: 2px;
+	border-bottom: 1px solid #F0F0F0;
+	padding: 10px 0;
+	overflow: hidden;
+	height: 1%;
+}
+
+.comment-gravatar {
+	float: left;
+	margin-right: 10px;
+	background: #FFF;
+	border: 1px solid #F0F0F0;
+	padding: 3px;
+}
+
+.comment-data {
+	float: left;
+	width: 400px;
+}
+
+.comment-data p {
+	margin-bottom: 6px;
+	line-height: 1.3;
+}
+
+.comment-author {
+	font-weight: 700;
+	margin-bottom: 3px;
+}
+
+.comment-meta {
+	color: #666;
+	margin-bottom: 5px;
+	font-size: 85%;
+}
+
+.unapproved {
+	font-style: italic;
+}
+
+#respond {
+	margin-top: 30px;
+}
+
+#comment-form {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#comment-form label {
+	font-size: 90%;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#comment-form input {
+	width: 240px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#comment-form textarea {
+	width: 455px;
+	height: 200px;
+	margin-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	padding: 10px;
+}
+
+
+#footer {
+	margin: 0 auto;
+	width: 840px;
+	height: 20px;
+	border-top: 1px solid #f6f6f6;
+	padding: 20px;
+}
+
+#footer-links {
+	list-style: none;
+}
+
+#footer-links li {
+	float: left;
+	margin-right: 15px;
+}
+
+.sep {
+	color: #CCC;
+	margin: 0 8px;
+}
+
+.ico-small {
+	vertical-align: middle;
+	margin: 0 5px 2px 0;
+}
